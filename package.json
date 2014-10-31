@@ -1,14 +1,14 @@
 {
-  "name": "twitter-streaming-node",
+  "name": "api.twitter",
   "version": "0.0.1",
-  "author": "stewartatsafe",
-  "private": true,
+  "author": "Daniel Leite de Oliveira",
+  "private": false,
   "scripts": {
-    "start": "node app"
+    "start": "node server"
   },
   "dependencies": {
     "express": "*",
-    "twitter": "*",
+    "ntwitter": "*",
     "socket.io": "*"
   }
 }
