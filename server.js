@@ -7,10 +7,10 @@ var twitter = require('ntwitter'),
     io = require('socket.io').listen(server);
 
 var twit = new twitter({
-  consumer_key: 'pqEd7Khb0PFqCUVqZ8ASWz9IJ',
-  consumer_secret: 'shuE3hq8zVnjEErxS4YOGsDWthBiBaGjKI2mto6b2GPMlSTMgA',
-  access_token_key: '67066867-diE9MKlzruRVIMhdt6lAJUR5pQNx7FlKMVuFA13nv',
-  access_token_secret: 'MHtPmMaDu4iBJdYKVMxkAoJ7MExkCeNjIK6PHIpIAi6Cr'
+  consumer_key: 'xxx',
+  consumer_secret: 'xxx',
+  access_token_key: 'xxx',
+  access_token_secret: 'xxx'
 });
 
 twit.verifyCredentials(function (err, data) {
