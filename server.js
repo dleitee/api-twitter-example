@@ -7,10 +7,10 @@ var twitter = require('ntwitter'),
     io = require('socket.io').listen(server);
 
 var twit = new twitter({
-  consumer_key: 'xxx',
-  consumer_secret: 'xxx',
-  access_token_key: 'xxx',
-  access_token_secret: 'xxx'
+  consumer_key: '### CONSUMER_KEY ###',
+  consumer_secret: '### CONSUMER_SECRET ###',
+  access_token_key: '### ACCESS_TOKEN_KEY ###',
+  access_token_secret: '### ACCESS_TOKEN_SECRET ###'
 });
 
 twit.verifyCredentials(function (err, data) {
