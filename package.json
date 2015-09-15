@@ -1,8 +1,7 @@
 {
   "name": "api.twitter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Daniel Leite de Oliveira",
-  "private": false,
   "scripts": {
     "start": "node server"
   },
