@@ -1,4 +1,3 @@
-//Setup web server and socket
 var twitter = require('ntwitter'),
     express = require('express'),
     app = express(),
@@ -34,7 +33,7 @@ io.on('disconnect', function() {
   console.log(connectCounter);
 });
 
-twit.stream('statuses/filter', { track: ['neymar', 'messi', 'cr7', 'barcelona', 'real madrid'] }, function(stream) {
+twit.stream('statuses/filter', { track: ['nfl', 'espn', 'ei'] }, function(stream) {
   stream.on('data', function (data) {
      io.sockets.emit('tweet', {
       user: data.user.screen_name,
